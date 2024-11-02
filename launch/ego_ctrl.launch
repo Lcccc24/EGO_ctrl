@@ -1,5 +1,5 @@
 <launch>
-    <rosparam file="/home/guocp/ctrl_rgo_ws/cxr_ego_ctrl/src/cxr_egoctrl_v1/config/waypoints.yaml" command="load" />
+    <rosparam file="~/ctrl_rgo_ws/cxr_ego_ctrl/src/cxr_egoctrl_v1/config/waypoints.yaml" command="load" />
     <node pkg="cxr_egoctrl_v1" type="cxr_egoctrl_v1" name="cxr_egoctrl_v1" output="screen" />
 </launch>
 
